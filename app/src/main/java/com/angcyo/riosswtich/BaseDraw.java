@@ -160,7 +160,7 @@ public abstract class BaseDraw {
         return getContext().obtainStyledAttributes(set, attrs);
     }
 
-    protected abstract void initAttribute(AttributeSet attr);
+    public abstract void initAttribute(AttributeSet attr);
 
     public int measureDrawWidth() {
         return mView.getMeasuredWidth();
